@@ -1,0 +1,7 @@
+Ref,Type,Link to,Tags,Protocol,Bucket,Hostname,Path,Username,Key,Secret,Customer Managed Key ID,Shard,WorkflowID,WorkflowOwner,InboxMetadata
+S3Backup,Storage,,,S3,media-bucket-demo,s3.us-east-2.amazonaws.com,/backup/media,,,,,Yes,,,
+ColdStorage,Storage,,,S3,archive-poc,s3.eu-central-1.amazonaws.com,/archive/files,,,,,No,,,
+PostProdFolder,Folder,S3Backup,"post,edit",,,,,,,,,,,,
+FinalEdits,Folder,ColdStorage,"final,locked",,,,,,,,,,,,
+IncomingAssets,Inbox,S3Backup,"upload,auto",,,,,,,,,435,112233,9000123
+QuickReview,Inbox,ColdStorage,"priority,review",,,,,,,,,482,88991,9000456
