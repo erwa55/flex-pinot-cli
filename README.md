@@ -13,7 +13,7 @@ A powerful Groovy-based command-line tool to create **Storage**, **Folder**, and
 
 ```bash
 groovy flex-pinot-cli.groovy [options] <path-to-csv>
-
+```
 
 ## 🔧 Options
 
@@ -29,10 +29,12 @@ groovy flex-pinot-cli.groovy [options] <path-to-csv>
 | `-s`, `--skip-validation` | Bypass all pre-checks (not recommended in production) |
 | `-f`, `--force` | Create resources even if they already exist |
 
+
 ## 🧪 Example
 
 ```bash
 groovy flex-pinot-cli.groovy -u https://flex.example.com -U admin -V resources.csv
+```
 
 ## 📄 CSV Format
 
@@ -87,6 +89,7 @@ curl --location 'https://flex.example.com/api/resources;name=MyStorage'
 curl --location 'https://flex.example.com/api/workflowDefinitions/415'
 curl --location 'https://flex.example.com/api/users/61551'
 curl --location 'https://flex.example.com/api/metadataDefinitions/7976130'
+```
 
 ## ⚙️ Skipping or Forcing Validation
 
