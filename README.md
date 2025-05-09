@@ -107,12 +107,12 @@ curl --location 'https://flex.example.com/api/metadataDefinitions/7976130'
 
 ## 🧠 Developer Notes
 
-This script uses:
+Next Steps:
 
-- `@Grab` to pull dependencies: OpenCSV, Apache Commons CLI, SLF4J
-- `JsonBuilder` and `JsonSlurper` for API payloads and responses
-- Standard Java `HttpURLConnection` for REST calls
-- Custom validation and logging for flexibility
+- Hotfodler support
+- CDN Support
+- Pre Templated
+- 
 
 ---
 
